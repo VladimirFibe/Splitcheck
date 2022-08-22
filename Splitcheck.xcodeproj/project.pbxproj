@@ -3,14 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E948510728B3CA2700BE1D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948510628B3CA2700BE1D3C /* AppDelegate.swift */; };
-		E948510928B3CA2700BE1D3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948510828B3CA2700BE1D3C /* SceneDelegate.swift */; };
 		E948510B28B3CA2700BE1D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948510A28B3CA2700BE1D3C /* ViewController.swift */; };
-		E948510E28B3CA2700BE1D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E948510C28B3CA2700BE1D3C /* Main.storyboard */; };
 		E948511028B3CA2800BE1D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E948510F28B3CA2800BE1D3C /* Assets.xcassets */; };
 		E948511328B3CA2800BE1D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E948511128B3CA2800BE1D3C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,12 +16,11 @@
 /* Begin PBXFileReference section */
 		E948510328B3CA2700BE1D3C /* Splitcheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splitcheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E948510628B3CA2700BE1D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E948510828B3CA2700BE1D3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E948510A28B3CA2700BE1D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E948510D28B3CA2700BE1D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E948510F28B3CA2800BE1D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E948511228B3CA2800BE1D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E948511428B3CA2800BE1D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E948511A28B3D03800BE1D3C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +37,7 @@
 		E94850FA28B3CA2700BE1D3C = {
 			isa = PBXGroup;
 			children = (
+				E948511A28B3D03800BE1D3C /* README.md */,
 				E948510528B3CA2700BE1D3C /* Splitcheck */,
 				E948510428B3CA2700BE1D3C /* Products */,
 			);
@@ -57,9 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				E948510628B3CA2700BE1D3C /* AppDelegate.swift */,
-				E948510828B3CA2700BE1D3C /* SceneDelegate.swift */,
 				E948510A28B3CA2700BE1D3C /* ViewController.swift */,
-				E948510C28B3CA2700BE1D3C /* Main.storyboard */,
 				E948510F28B3CA2800BE1D3C /* Assets.xcassets */,
 				E948511128B3CA2800BE1D3C /* LaunchScreen.storyboard */,
 				E948511428B3CA2800BE1D3C /* Info.plist */,
@@ -103,7 +99,7 @@
 				};
 			};
 			buildConfigurationList = E94850FE28B3CA2700BE1D3C /* Build configuration list for PBXProject "Splitcheck" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,7 +123,6 @@
 			files = (
 				E948511328B3CA2800BE1D3C /* LaunchScreen.storyboard in Resources */,
 				E948511028B3CA2800BE1D3C /* Assets.xcassets in Resources */,
-				E948510E28B3CA2700BE1D3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +135,12 @@
 			files = (
 				E948510B28B3CA2700BE1D3C /* ViewController.swift in Sources */,
 				E948510728B3CA2700BE1D3C /* AppDelegate.swift in Sources */,
-				E948510928B3CA2700BE1D3C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E948510C28B3CA2700BE1D3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E948510D28B3CA2700BE1D3C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E948511128B3CA2800BE1D3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +278,9 @@
 				INFOPLIST_FILE = Splitcheck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +306,9 @@
 				INFOPLIST_FILE = Splitcheck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
