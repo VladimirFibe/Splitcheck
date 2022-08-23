@@ -77,7 +77,23 @@ class ViewController: UIViewController {
        let selected = tipsView.selected {
       let withTips = total * (1.0 + Double(tipsView.tips[selected]) / 100.0)
       let result = withTips / Double(personsView.count)
-      descriptionLabel.text = "\(result) per person"
+      let alert = UIAlertController(title: "Alert", message: "\(result) per person", preferredStyle: .alert)
+      alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+          switch action.style{
+              case .default:
+              print("default")
+              
+              case .cancel:
+              print("cancel")
+              
+              case .destructive:
+              print("destructive")
+              
+          @unknown default:
+            print("@unknown")
+          }
+      }))
+      self.present(alert, animated: true, completion: nil)
     }
   }
   
