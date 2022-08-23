@@ -9,15 +9,15 @@ import SwiftUI
 
 class PersonsView: CustomView {
 
-  var count = 0 {
+  var count = 1 {
     didSet {
       countLabel.text = "\(count)"
-      minusButton.isEnabled = count > 0
+      minusButton.isEnabled = count > 1
     }
   }
   
   let countLabel: UILabel = {
-    $0.text = "0"
+    $0.text = "1"
     $0.font = UIFont(name: "Avenir Next", size: 40)
     $0.textAlignment = .center
     return $0
@@ -60,7 +60,7 @@ class PersonsView: CustomView {
   
   @objc func buttonTapped(_ sender: UIButton) {
     if sender.tag == 0 {
-      if count > 0 { count -= 1 }
+      if count > 1 { count -= 1 }
     } else {
       count += 1
     }

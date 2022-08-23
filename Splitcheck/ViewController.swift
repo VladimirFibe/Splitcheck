@@ -46,6 +46,7 @@ class ViewController: UIViewController {
     $0.addTarget(self, action: #selector(calculateTapped), for: .primaryActionTriggered)
     return $0
   }(UIButton(type: .system))
+  
   let spacer = UIView()
   
   lazy var stack: UIStackView = {
@@ -54,6 +55,7 @@ class ViewController: UIViewController {
     $0.translatesAutoresizingMaskIntoConstraints = false
     return $0
   }(UIStackView(arrangedSubviews: [titleLabel, logoImageView, descriptionLabel, totalBillView, personsView, tipsView, calculateButton, spacer]))
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     setupViews()
@@ -63,6 +65,9 @@ class ViewController: UIViewController {
   func setupViews() {
     view.backgroundColor = #colorLiteral(red: 0.9813271165, green: 0.9813271165, blue: 0.9813271165, alpha: 1) //F9F9F9
     view.addSubview(stack)
+    let tap = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+    tap.cancelsTouchesInView = false
+    view.addGestureRecognizer(tap)
   }
   
   @objc func calculateTapped() {
@@ -72,8 +77,12 @@ class ViewController: UIViewController {
        let selected = tipsView.selected {
       let withTips = total * (1.0 + Double(tipsView.tips[selected]) / 100.0)
       let result = withTips / Double(personsView.count)
-      calculateButton.setTitle("\(result)", for: .normal)
+      descriptionLabel.text = "\(result) per person"
     }
+  }
+  
+  @objc func hideKeyboard() {
+    view.endEditing(true)
   }
 }
 
