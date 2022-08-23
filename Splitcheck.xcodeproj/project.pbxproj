@@ -11,6 +11,11 @@
 		E948510B28B3CA2700BE1D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948510A28B3CA2700BE1D3C /* ViewController.swift */; };
 		E948511028B3CA2800BE1D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E948510F28B3CA2800BE1D3C /* Assets.xcassets */; };
 		E948511328B3CA2800BE1D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E948511128B3CA2800BE1D3C /* LaunchScreen.storyboard */; };
+		E948511C28B43E1A00BE1D3C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948511B28B43E1A00BE1D3C /* CustomView.swift */; };
+		E948511E28B4472B00BE1D3C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948511D28B4472B00BE1D3C /* CustomTextField.swift */; };
+		E948512028B44C8900BE1D3C /* PersonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948511F28B44C8900BE1D3C /* PersonsView.swift */; };
+		E948512228B4588000BE1D3C /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948512128B4588000BE1D3C /* TipsView.swift */; };
+		E948512428B45D5900BE1D3C /* TipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948512328B45D5900BE1D3C /* TipCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		E948511228B3CA2800BE1D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E948511428B3CA2800BE1D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E948511A28B3D03800BE1D3C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E948511B28B43E1A00BE1D3C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		E948511D28B4472B00BE1D3C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E948511F28B44C8900BE1D3C /* PersonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsView.swift; sourceTree = "<group>"; };
+		E948512128B4588000BE1D3C /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		E948512328B45D5900BE1D3C /* TipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				E948510628B3CA2700BE1D3C /* AppDelegate.swift */,
 				E948510A28B3CA2700BE1D3C /* ViewController.swift */,
+				E948511B28B43E1A00BE1D3C /* CustomView.swift */,
+				E948511D28B4472B00BE1D3C /* CustomTextField.swift */,
+				E948511F28B44C8900BE1D3C /* PersonsView.swift */,
+				E948512128B4588000BE1D3C /* TipsView.swift */,
+				E948512328B45D5900BE1D3C /* TipCell.swift */,
 				E948510F28B3CA2800BE1D3C /* Assets.xcassets */,
 				E948511128B3CA2800BE1D3C /* LaunchScreen.storyboard */,
 				E948511428B3CA2800BE1D3C /* Info.plist */,
@@ -133,7 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E948512228B4588000BE1D3C /* TipsView.swift in Sources */,
+				E948511E28B4472B00BE1D3C /* CustomTextField.swift in Sources */,
+				E948512028B44C8900BE1D3C /* PersonsView.swift in Sources */,
+				E948511C28B43E1A00BE1D3C /* CustomView.swift in Sources */,
 				E948510B28B3CA2700BE1D3C /* ViewController.swift in Sources */,
+				E948512428B45D5900BE1D3C /* TipCell.swift in Sources */,
 				E948510728B3CA2700BE1D3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
