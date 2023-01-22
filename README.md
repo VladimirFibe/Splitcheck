@@ -6,4 +6,4 @@
 [Часть 2](https://youtu.be/Hom46fPMiNQ)
 [Часть 3](https://youtu.be/s0nThpsNlhA)
 
-![]()
+![1](https://github.com/VladimirFibe/Splitcheck/blob/main/img/1.png)
