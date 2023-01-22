@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B966F8297D897D006B7B8E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 02B966F7297D897D006B7B8E /* 1.png */; };
 		E948510728B3CA2700BE1D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948510628B3CA2700BE1D3C /* AppDelegate.swift */; };
 		E948510B28B3CA2700BE1D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948510A28B3CA2700BE1D3C /* ViewController.swift */; };
 		E948511028B3CA2800BE1D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E948510F28B3CA2800BE1D3C /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02B966F7297D897D006B7B8E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		E948510328B3CA2700BE1D3C /* Splitcheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splitcheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E948510628B3CA2700BE1D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E948510A28B3CA2700BE1D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,10 +46,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02B966F6297D88B9006B7B8E /* img */ = {
+			isa = PBXGroup;
+			children = (
+				02B966F7297D897D006B7B8E /* 1.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		E94850FA28B3CA2700BE1D3C = {
 			isa = PBXGroup;
 			children = (
 				E948511A28B3D03800BE1D3C /* README.md */,
+				02B966F6297D88B9006B7B8E /* img */,
 				E948510528B3CA2700BE1D3C /* Splitcheck */,
 				E948510428B3CA2700BE1D3C /* Products */,
 			);
@@ -136,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B966F8297D897D006B7B8E /* 1.png in Resources */,
 				E948511328B3CA2800BE1D3C /* LaunchScreen.storyboard in Resources */,
 				E948511028B3CA2800BE1D3C /* Assets.xcassets in Resources */,
 			);

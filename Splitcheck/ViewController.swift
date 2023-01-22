@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Splitcheck
-//
-//  Created by Vladimir Fibe on 22.08.2022.
-//
-
 import SwiftUI
 
 class ViewController: UIViewController {
